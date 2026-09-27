@@ -47,7 +47,7 @@ For the times, I compared what I found on the Massive Dev Chart and settled on:
 * **Aviphot @200:** 17 min
 * **Aviphot @400:** 22 min
 
-However, times on the Massive Dev Chart are not always very accurate and can be quite random, especially for films that only have a single entry. Developing with another developer at these specified ISOs might not yield the exact same results, but for Aviphot at 200 and 400 ISO, it should be fine.
+However, times on the Massive Dev Chart are not always very accurate and can be quite random, especially for films that only have a single entry. Developing with another developer at these specified ISOs might not yield the exact same results(the aviphot @100 time is too high i think), but for Aviphot at 200 and 400 ISO, it should be fine with other dev.
 
 Here are the different times I found on the chart, on the back of my Rodinal bottle, and on the datasheets for these films at 1+50 20°C. I excluded times that already compensated for the filter effect:
 
