@@ -1,18 +1,24 @@
 # IR Metering with Reveni Labs SPOT METER mk2
 
-The Reveni Labs Spot Meter mk2 is a great tool, but it has infrared sensitivity (which is fixed in the v1.8 firmware and the mk3 directely use an ir-cut glass to prevent ir sencivity)(it might also work on the mk1 but I havent done anny test with it.
+The Reveni Labs Spot Meter mk2 is a great tool, but it natively has infrared sensitivity. 
 
-Because of this extended IR sensitivity, the meter can be used for metering infrared film with an IR pass filter by simply placing the filter in front of the meter.
+This IR sensitivity was fixed in the v1.8 firmware update (so this method can only be used with version 1.7 or older), and the mk3 directly uses an IR-cut glass to prevent it. (This technique might also work on the mk1, but I haven't done any tests with it). 
 
-Because of the binaucunar use or the meeter you can cearely see what you aim at and not be obstructed by the ir-pass filter.
+Because of this extended IR sensitivity, the meter can be used to meter infrared film simply by placing an IR-pass filter directly in front of the meter's sensor, letting only IR light reach the meter's sensor.
 
-I have run some bracketing to find an "IR filtered ISO" for spot metering, where you can choose an ISO depending on how much you want the foliage to be white. You just aim at the foliage with the filter in front and get your exposure!
+Because the meter relies on a binocular aiming principle (you keep both eyes open so your brain merges the meter's internal display with your real-world vision), you can clearly see what you are aiming at without being blinded by the filter.
 
-I tested the only two infrared films readily available on the market: Ilford SFX and Agfa Aviphot 200 (aka Rollei Infrared, Retro 400s, Superpan 200). Since all this rolley stoks are the exact same film and already got theme when, I decided to develop them at different speeds: 100, 200, and 400 ISO.
+I ran some bracketing tests to find an "IR-filtered ISO" for spot metering. This allows you to choose an ISO depending on how white you want the foliage to appear. You just aim at the foliage with the filter in front of the meter and get your exposure! There is no need to bracket or randomly overexpose +10EV compared to using a regular meter.
 
-Special thanks to u/Kareem-Abdul-Jabroni for giving me these films to test!!
+I tested the only two infrared films readily available on the market: Ilford SFX and Agfa Aviphot 200 (aka Rollei Infrared, Retro 400s, Superpan 200). Since all these Rollei stocks are the exact same film, I decided to test and develop them at different speeds (push/pull): 100, 200, and 400 ISO.
+
+For the filter, I used the Neewer IR720.
+
+Special thanks to u/Kareem-Abdul-Jabroni for giving me these films to test!
 
 ## Results
+
+To use the calibration "chart", simply choose the image that matches your film (stock and push/pull for the Aviphot). Then, choose the brightness you want for the subject you are metering, and set your meter to the ISO specified on top of that specific example. Finally, meter your subject with the IR-pass filter in front of the meter, put the filter back on your camera lens, and shoot with the parameters shown on the meter.
 
 <img width="5600" height="941" alt="it_spot_SFX+Neewer IR720_v2" src="https://github.com/user-attachments/assets/db4c6e9c-1c34-449d-83c9-a7c48da5075d" />
 
@@ -22,11 +28,13 @@ Special thanks to u/Kareem-Abdul-Jabroni for giving me these films to test!!
 
 <img width="5600" height="941" alt="ir_spot_AVIPOT200_@400+Neewer IR720_v2" src="https://github.com/user-attachments/assets/94072b1a-c81f-434b-9e92-a4deeab54136" />
 
+## Example
 
+This shot was taken using Rollei Infrared developed at 400 ISO. I shot it at 6 ISO and aimed the meter directly at the tree.
 
+<img width="4765" height="3180" alt="_DSC4840" src="https://github.com/user-attachments/assets/5110a979-edfc-4b98-9011-26ebd2591173" />
 
-
-
+## Technical Details
 
 ### Development Times
 
@@ -34,39 +42,36 @@ I used Rodinal 1+50 at 20°C with agitation every 2 mins for everything.
 
 For the times, I compared what I found on the Massive Dev Chart and settled on:
 
-* SFX     @200: 10 min
-* Aviphot @100: 15 min
-* Aviphot @200: 17 min
-* Aviphot @400: 22 min
+* **SFX @200:** 10 min
+* **Aviphot @100:** 15 min
+* **Aviphot @200:** 17 min
+* **Aviphot @400:** 22 min
 
-However, times on the Massive Dev Chart are not always very accurate and can be quite random specialy those who had only one time,Developing with another developer at these specified ISOs might not yield the exact same results, but for the aviphot @200 and @400 it should be ok.
+However, times on the Massive Dev Chart are not always very accurate and can be quite random, especially for films that only have a single entry. Developing with another developer at these specified ISOs might not yield the exact same results, but for Aviphot at 200 and 400 ISO, it should be fine.
 
-here are the différents times i fond on the chart, on the back of my bottle of rodinal and on the datasheet of theis films  at 1+50 20°C, i exluded Times who compensated for the filter effect. 
+Here are the different times I found on the chart, on the back of my Rodinal bottle, and on the datasheets for these films at 1+50 20°C. I excluded times that already compensated for the filter effect:
 
-* SFX    @200:10 min,
-*bavipot @100: 15min, 
-* avipot @200: 17min, 9 min(1+43), 17 min, 17min box)
-* avipot @400: 22min, 22min, 22min(box)
-
-
+* **SFX @200:** 10 min
+* **Aviphot @100:** 15 min
+* **Aviphot @200:** 17 min, 9 min (1+43), 17 min (box)
+* **Aviphot @400:** 22 min, 22 min (box)
 
 ### The Shooting
 
-For the shooting, I used my Nikon F3 with a Makinon 28mm f/2.8 @ f/4 with Neewer720 filter, and I chose a sunny, cloudless day.
+For the shooting, I used my Nikon F3 with a Makinon 28mm f/2.8 lens set at f/4 with a Neewer 720nm filter, and I chose a sunny, cloudless day.
 
-I metered with the filter in front, aiming at dense and uniformly lit vegetation, and wrote everything down in a notebook while shooting.
-I had shoot 7 exposure for each film then rewind the spool.
+I metered with the filter in front of the spot meter, aiming at dense and uniformly lit vegetation, and wrote everything down in a notebook while shooting. I shot 7 exposures for each film, then rewound the spool.
 
 ### Development Process
 
-For the development, I cut my films to get the 7 exposures into the tank and saved the rest of the film for later.
+For the development, I cut the films to load just the 7 exposures into the tank, saving the rest of the rolls for later.
 
-I filled a large bucket with water, cooled it with ice until it was at 20°C, and then added ice again during the process if the temperature rose, keeping it within +/- 1°C.
+I filled a large bucket with water, cooled it with ice until it reached 20°C, and added ice during the process if the temperature rose, keeping it within +/- 1°C.
 
-As for the agitation, I agitated every 2 minutes.
+I agitated the tank every 2 minutes.
 
 ### Scanning
 
-I used a Sony A7II, exposing to get the base a little bit before clipping, using the same exposure for the entire roll.
+I used a Sony A7II for scanning, exposing to get the film base just before clipping, and kept this same exposure for the entire strip.
 
-Then I imported the files to Lightroom Classic, set the white balance, used the "color picker" on the film base and leader in the tone curve, inverted from these two points, and copied the parameters to every frame of the roll whitheout any other ajustement.
+I imported the files into Lightroom Classic, set the white balance, and used the color picker on the film base and leader in the tone curve. I inverted the curve using these two points and synced these exact parameters across every frame of the roll without any further adjustments.
