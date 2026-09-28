@@ -75,3 +75,14 @@ I agitated the tank every 2 minutes.
 I used a Sony A7II for scanning, exposing to get the film base just before clipping, and kept this same exposure for the entire strip.
 
 I imported the files into Lightroom Classic, set the white balance, and used the color picker on the film base and leader in the tone curve. I inverted the curve using these two points and synced these exact parameters across every frame of the roll without any further adjustments.
+
+
+
+
+
+
+
+
+do to:
+- redo sfx+ aviphot @100 and find the good dev time
+
