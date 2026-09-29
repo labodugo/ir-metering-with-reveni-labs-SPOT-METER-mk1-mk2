@@ -1,8 +1,14 @@
-# IR Metering with Reveni Labs SPOT METER mk2
+# IR Metering with Reveni Labs SPOT METER mk1 and  mk2
 
-The Reveni Labs Spot Meter mk2 is a great tool, but it natively has infrared sensitivity. 
+The Reveni Labs Spot Meters mk1 and mk2 are great tools, but they natively had infrared sensitivity.
 
-This IR sensitivity was fixed in the v1.8 firmware update (so this method can only be used with version 1.7 or older), and the mk3 directly uses an IR-cut glass to prevent it. (This technique might also work on the mk1, but I haven't done any tests with it). 
+This was fixed in the v1.8 firmware update (so this method only applies to version 1.7 or older, though v1.9 should include the option to choose!). 
+This fix is possible because the device actually uses two sensors: one for visible light + IR, and another strictly for IR cancellation. Meanwhile, the mk3 directly uses an IR-cut glass to prevent IR sensitivity altogether.
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/fdfe7a9d-03ed-4469-9b08-3e15ce03cd13" />  
+
+
+Special thanks to Matt from Reveni Labs for the info!
 
 Because of this extended IR sensitivity, the meter can be used to meter infrared film simply by placing an IR-pass filter directly in front of the meter's sensor, letting only IR light reach the meter's sensor.
 
