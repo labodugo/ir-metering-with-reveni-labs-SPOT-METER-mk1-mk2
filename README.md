@@ -20,6 +20,9 @@ Special thanks to u/Kareem-Abdul-Jabroni for giving me these films to test!
 
 To use the calibration "chart", simply choose the image that matches your film (stock and push/pull for the Aviphot). Then, choose the brightness you want for the subject you are metering, and set your meter to the ISO specified on top of that specific example. Finally, meter your subject with the IR-pass filter in front of the meter, put the filter back on your camera lens, and shoot with the parameters shown on the meter.
 
+!! For development, if you use Rodinal, you can just use the times, dilutions, and temperatures I specified on all 4 tests. But if you want to use another developer, ONLY use the results for Aviphot @200 and @400 (I don't trust the times I found for Aviphot @100 and SFX @200 to match those speeds, I believe the time for Aviphot @100 is too long and the time for SFX is too short). !!!
+
+
 <img width="5600" height="941" alt="it_spot_SFX+Neewer IR720_v2" src="https://github.com/user-attachments/assets/db4c6e9c-1c34-449d-83c9-a7c48da5075d" />
 
 <img width="5600" height="941" alt="ir_spot_AVIPOT200_@100+Neewer IR720_v2" src="https://github.com/user-attachments/assets/d8dafaf5-b5a0-419e-b7c6-e3bda5af135e" />
