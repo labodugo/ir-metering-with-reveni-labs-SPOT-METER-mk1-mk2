@@ -2,8 +2,9 @@
 
 The Reveni Labs Spot Meters mk1 and mk2 are great tools, but they natively had infrared sensitivity.
 
-This was fixed in the v1.8 firmware update (so this method only applies to version 1.7 or older, though v1.9 should include the option to choose!). 
+This was fixed in the v1.8 firmware update (but the v1.9 firmware will give the option to chose between visible, visible+ir, ir). 
 This fix is possible because the device actually uses two sensors: one for visible light + IR, and another strictly for IR cancellation. Meanwhile, the mk3 directly uses an IR-cut glass to prevent IR sensitivity altogether.
+The meter need to be in "visible+ir".
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/fdfe7a9d-03ed-4469-9b08-3e15ce03cd13" />  
 
