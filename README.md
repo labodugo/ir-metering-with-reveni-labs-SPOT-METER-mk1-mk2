@@ -7,7 +7,7 @@ This fix is possible because the device actually uses two sensors: one for visib
 The meter need to be in "visible+ir".
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/fdfe7a9d-03ed-4469-9b08-3e15ce03cd13" />  
-
+(only CH1 chanel where used before v1.8 and then CH1 is used to cancel ir from v1.8) 
 
 Special thanks to Matt from Reveni Labs for the info!
 
