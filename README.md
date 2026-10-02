@@ -4,7 +4,7 @@ The Reveni Labs Spot Meters mk1 and mk2 are great tools, but they natively had i
 
 This was fixed in the v1.8 firmware update (but the v1.9 firmware will give the option to chose between visible, visible+ir, ir). 
 This fix is possible because the device actually uses two sensors: one for visible light + IR, and another strictly for IR cancellation. Meanwhile, the mk3 directly uses an IR-cut glass to prevent IR sensitivity altogether.
-The meter need to be in "visible+ir".
+The meter need to be in "visible+ir" (for v1.9+ on MK2).
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/fdfe7a9d-03ed-4469-9b08-3e15ce03cd13" />  
 (only CH1 chanel where used before v1.8 and then CH1 is used to cancel ir from v1.8) 
@@ -15,7 +15,7 @@ Because of this extended IR sensitivity, the meter can be used to meter infrared
 
 Because the meter relies on a binocular aiming principle (you keep both eyes open so your brain merges the meter's internal display with your real-world vision), you can clearly see what you are aiming at without being blinded by the filter.
 
-I ran some bracketing tests to find an "IR-filtered ISO" for spot metering. This allows you to choose an ISO depending on how white you want the foliage to appear. You just aim at the foliage with the filter in front of the meter and get your exposure! There is no need to bracket or randomly overexpose +10EV compared to using a regular meter.
+I ran some bracketing tests to find an "IR-filtered ISO" for spot metering (feel free to do your own bracketing to match your development routine). This allows you to choose an ISO depending on how white you want the foliage to appear. You just aim at the foliage with the filter in front of the meter and get your exposure! There is no need to bracket or randomly overexpose +10EV compared to using a regular meter.
 
 I tested the only two infrared films readily available on the market: Ilford SFX and Agfa Aviphot 200 (aka Rollei Infrared, Retro 400s, Superpan 200). Since all these Rollei stocks are the exact same film, I decided to test and develop them at different speeds (push/pull): 100, 200, and 400 ISO.
 
