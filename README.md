@@ -9,6 +9,7 @@ The meter need to be in "visible+ir" (for v1.9+ on MK2).
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/fdfe7a9d-03ed-4469-9b08-3e15ce03cd13" />  
 (only CH1 chanel where used before v1.8 and then CH1 is used to cancel ir from v1.8) 
 
+
 Special thanks to Matt from Reveni Labs for the info!
 
 Because of this extended IR sensitivity, the meter can be used to meter infrared film simply by placing an IR-pass filter directly in front of the meter's sensor, letting only IR light reach the meter's sensor.
