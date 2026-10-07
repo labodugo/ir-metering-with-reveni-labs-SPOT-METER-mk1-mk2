@@ -1,4 +1,4 @@
-# IR Metering with Reveni Labs SPOT METER mk1 and  mk2
+# True IR Metering with Reveni Labs SPOT METER mk1 and  mk2
 
 The Reveni Labs Spot Meters mk1 and mk2 are great tools, but they natively had infrared sensitivity.
 
