@@ -29,6 +29,8 @@ To use the calibration "chart", simply choose the image that matches your film (
 
 !! For development, if you use Rodinal, you can just use the times, dilutions, and temperatures I specified on all 4 tests. But if you want to use another developer, ONLY use the results for Aviphot @200 and @400 (I don't trust the times I found for Aviphot @100 and SFX @200 to match those speeds, I believe the time for Aviphot @100 is too long and the time for SFX is too short). !!!
 
+However, you can also set up your own bracketing to match your development routine, film stock, and filters.
+
 
 <img width="5600" height="941" alt="it_spot_SFX+Neewer IR720_v2" src="https://github.com/user-attachments/assets/db4c6e9c-1c34-449d-83c9-a7c48da5075d" />
 
